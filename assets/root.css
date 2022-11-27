@@ -121,7 +121,7 @@ main {
 }
 .card-text {
 	min-height: 70px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .card > span {
 	font-size: 1.7em;
@@ -136,6 +136,23 @@ main {
 	color: #ff78c9;
 }
 
+/* FOOTER SECTION */
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 100%;
+	margin: 0;
+	background-color: #ffffff7d;
+    border: 1px solid #c4c4c4;
+}
+footer > p > a {
+	transition: 300ms;
+}
+footer > p > a:hover {
+	color: rgb(255, 156, 239);
+}
 
 /* >> RESPONSIVENESS << */
 @media (max-width: 1170px) {
