@@ -95,3 +95,24 @@ main {
 	font-weight: bold;
 	color: #b2ff9d;
 }
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 25px;
+	margin-top: 70px;
+}
+.card {
+	background-color: #ffffffb5;
+    border: 1px solid #c4c4c4;
+	border-radius: 8px;
+	text-align: center;
+	padding: 25px;
+	transition: 400ms ease;
+}
+.card > span > a {
+	text-decoration: none;
+}
+
+.card:hover {
+	box-shadow: 5px 5px #b2ff9d;
+}
