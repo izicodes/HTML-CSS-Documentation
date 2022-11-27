@@ -85,3 +85,13 @@ main {
 	text-align: center;
 	font-size: 2.5rem;
 }
+.tagline {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 17px;
+}
+.italic-colour {
+	font-style: italic;
+	font-weight: bold;
+	color: #b2ff9d;
+}
